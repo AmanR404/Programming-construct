@@ -24,6 +24,6 @@ dict[$key3]=$value3
 dict[$key4]=$value4
 
 
-for key in "${!test_dict[@]}"; do
-    echo "$key ${test_dict[$key]}"
+for key in "${!dict[@]}"; do
+    echo "$key ${dict[$key]}"
 done
